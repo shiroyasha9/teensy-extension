@@ -26,15 +26,15 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/glob": "^8.0.0",
+    "@types/glob": "^8.0.1",
     "@types/mocha": "^10.0.1",
-    "@types/node": "16.x",
+    "@types/node": "18.11.19",
     "@types/node-fetch": "2",
-    "@types/vscode": "^1.74.0",
-    "@vscode/test-electron": "^2.2.1",
-    "glob": "^8.0.3",
+    "@types/vscode": "^1.75.0",
+    "@vscode/test-electron": "^2.2.3",
+    "glob": "^8.1.0",
     "mocha": "^10.2.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
