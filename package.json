@@ -1,10 +1,11 @@
 {
   "name": "teensy-extension",
   "displayName": "teensy",
-  "description": "Make your urls teensy with this free extension!",
-  "version": "0.1.0",
+  "description": "Make your long URLs short (teensies) with this extension straight away from VS Code. Fully Open Source.",
+  "version": "1.0.0",
+  "license": "MIT",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.75.0"
   },
   "categories": [
     "Other"
