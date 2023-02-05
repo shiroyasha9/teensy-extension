@@ -9,6 +9,10 @@
     "url": "https://teensy.tech/gh"
   },
   "license": "MIT",
+  "pricing": "Free",
+  "sponsor": {
+    "url": "https://github.com/sponsors/shiroyasha9"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
