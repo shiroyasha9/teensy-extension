@@ -3,6 +3,11 @@
   "displayName": "teensy",
   "description": "Make your long URLs short (teensies) with this extension straight away from VS Code. Fully Open Source.",
   "version": "1.0.0",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://teensy.tech/gh"
+  },
   "license": "MIT",
   "engines": {
     "vscode": "^1.75.0"
