@@ -16,13 +16,13 @@ const checkURLValidity = (text: string) => {
 };
 
 export function activate(context: vscode.ExtensionContext) {
-  let disposable = vscode.commands.registerCommand('teeny.teenyLink', () => {
+  let disposable = vscode.commands.registerCommand('teensy.teensyLink', () => {
     // ask for the link
     vscode.window
       .showInputBox({
-        prompt: 'Enter a link to make it teeny',
+        prompt: 'Enter a link to make it teensy',
         placeHolder: 'https://example.com',
-        title: 'Teeny',
+        title: 'Teensy',
         validateInput: (value: string) => {
           if (!value || !checkURLValidity(value)) {
             return 'Please enter a valid link';
@@ -35,9 +35,9 @@ export function activate(context: vscode.ExtensionContext) {
         if (link) {
           vscode.window
             .showInputBox({
-              prompt: 'Enter the alias (slug) for the teenified link',
+              prompt: 'Enter the alias (slug) for the teensy',
               placeHolder: 'example',
-              title: 'Teeny',
+              title: 'Teensy',
               validateInput: async (value: string) => {
                 if (!value) {
                   return 'Please enter a valid slug';
@@ -86,7 +86,7 @@ export function activate(context: vscode.ExtensionContext) {
                   vscode.env.clipboard.writeText(`${BASE_URL}/${slug}`);
                   vscode.window
                     .showInformationMessage(
-                      'Teenified link successfully and copied to clipboard!',
+                      'Link teensied and copied to clipboard!',
                       'Open Link'
                     )
                     .then(value => {

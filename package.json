@@ -1,7 +1,7 @@
 {
-  "name": "teeny-extension",
-  "displayName": "teeny",
-  "description": "Make your urls teeny with this free extension!",
+  "name": "teensy-extension",
+  "displayName": "teensy",
+  "description": "Make your urls teensy with this free extension!",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.74.0"
@@ -9,15 +9,12 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:teeny.teenyLink"
-  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "teeny.teenyLink",
-        "title": "Teeny A Link"
+        "command": "teensy.teensyLink",
+        "title": "Teensy A Link"
       }
     ]
   },
