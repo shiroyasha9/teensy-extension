@@ -2,7 +2,7 @@
   "name": "teensy-extension",
   "displayName": "teensy",
   "description": "Make your long URLs short (teensies) with this extension straight away from VS Code. Fully Open Source.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "icon.png",
   "repository": {
     "type": "git",
